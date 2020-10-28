@@ -1,1 +1,1 @@
-Dont' forget to run "npm install", because this app depending on bootstrap and jquery!
+Don't' forget to run "npm install", because this app depending on bootstrap and jquery!
