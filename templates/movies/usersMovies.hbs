@@ -3,7 +3,10 @@
 <div id="myMovies">
       <h1>My Movies</h1>
       <div class="movies">
-        <div class="movie">
+        {{#each movies}}
+          {{>ownMovie}}
+        {{/each}}
+        {{!-- <div class="movie">
           <h2>Title: Us (2019)</h2>
           <img
             src="https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX140_CR0,0,140,209_AL_.jpg">
@@ -37,7 +40,7 @@
             <button><a href="#">Buy Ticket</a></button>
             <button><a href="#">Details</a></button>
           </div>
-        </div>
+        </div> --}}
       </div>
 </div>
 
